@@ -17,7 +17,7 @@ return new class extends Migration
         $table->string('email', 100)->unique();
         $table->string('password', 255);
         $table->tinyInteger('estado')->default(1); 
-        $table->timestamp('fecha_creacion')->useCurrent();
+        $table->dateTime('fecha_creacion')->useCurrent();
         });
     }
 
