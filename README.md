@@ -18,7 +18,7 @@ Solución a la prueba técnica implementación de API REST.
 
 ## Endpoints Principales
 - **POST** `/api/usuarios` - Registrar nuevo usuario.
-- **GET** `/api/usuarios` - Listar usuarios (soporta filtro `?estado=1|0`).
+- **GET** `/api/usuarios` - Listar usuarios.
 - **PUT** `/api/usuarios/{id}` - Actualizar nombre y/o estado de un usuario.
 - **DELETE** `/api/usuarios/{id}` - Desactiva al usuario cambiando estado a 0.
 
